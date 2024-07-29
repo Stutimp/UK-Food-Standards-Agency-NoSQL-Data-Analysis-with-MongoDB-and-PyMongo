@@ -14,11 +14,15 @@ The challenge is divided into three parts: database setup, database update, and 
 - Then, I imported the libraries, such as PyMongo, pandas, and Pretty Print, for the Jupyter Notebook setup and data analysis. 
 -With the above process, I created an environment for working with the 'uk_food' MongoDB database and the 'establishments' collection within my Jupyter notebook, allowing me to perform data analysis or manipulation tasks as needed.
 
+## Part 2
+
 2. **Update the database:**
 
 - I inserted new restaurant's ("Penang Flavours") information into the database by using the 'insert_one()' function and updated it with the BusinessTypeID number. 
 - Using query tools, I found the total establishments in 'Dover' and deleted all of them together using the 'update_many()' and 'delete_many()' functions.
 - I converted data type of 'RatingValue' into an integer, and the data type of 'Longitude' and 'latitude' into float numbers for further statistical calculations.
+
+## Part 3
 
 3. **Exploratory Analysis:**
 The Editors of **Eat Safe, Love** have specific questions they want me to answer, which will help them find the locations they wish to visit and avoid. Hence, using Jupyter Notebook, I found the answers to the following questions using query tools, pretty print function, pipeline method, and aggregate methods:
